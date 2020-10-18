@@ -1,0 +1,20 @@
+}
+.gallery{
+	
+	margin:10px 50px;
+}
+
+.gallery img{
+	
+	padding:15px;
+	
+	transition:1s;
+
+}
+
+.gallery img:hover{
+	
+	filter:grayscale(0);
+	transform:scale(1.1);
+
+}
