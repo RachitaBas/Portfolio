@@ -160,9 +160,9 @@ h4{
     float:left;
     margin-left: none;
     margin-bottom:0px;
-  
-    
-      text-shadow: 2px 2px 5px red;
+   font-size:70px;
+
+  text-shadow: 2px 2px 5px green;
   }
 
 
@@ -172,12 +172,12 @@ p {
 }
 
   .dance{
-    color:blue;
+    color:black;
     font-family: sans-serif;
-    font-size:24px;
+    font-size:45px;
 align-self:center;
-    text-shadow: 1px 2px;
   
+    text-shadow: 19px 19px 20px  blue;
   
   }
 }
@@ -6215,11 +6215,35 @@ button.bg-primary:focus {
 }
 
 .bg-secondary {
-  background-image: url("../assets/img/p/q.jpg");
+  background-image: url("../assets/img/p/xc-desktop.jpg");
   background-color: white  !important;
-  height:900px;
+  height:800px;
   width:100%;
   background-size:cover;
+
+  /*    */
+   background-position: center center;
+   background-repeat: no-repeat;
+
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #mainBG { background-image: url("../assets/img/p/xc-mobile.jpg") 50% 80% no-repeat scroll !important;
+  background-position:center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+}
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  #mainBG { background: url("../assets/img/p/jk-small.jpg") 75% 80% no-repeat scroll !important;
+  background-position:center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
 }
 
 a.bg-secondary:hover, a.bg-secondary:focus,
@@ -10412,7 +10436,7 @@ h7{
   margin-top:0px;
   margin-bottom:0px;
   color:maroon;
-  font-size: 30px;
+  font-size: 50px;
   text-shadow: 2px 2px;
   border-bottom-left-radius: 25px;
   margin-left:50px;
