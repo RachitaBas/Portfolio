@@ -150,19 +150,17 @@ h4{
  flex-direction:row-reverse;
 }
   h1{
-    color:black;
-    flex-direction: row-reverse;
+   
+    flex-direction: row;
     align-self:bottom;
     text-align:center;
+   align-self: center;
     padding-top:380px;
     padding-bottom:20px;
     padding-left:70px;
-    float:left;
+    text-shadow:2px 2px 8px #FF0000;
     margin-left: none;
     margin-bottom:0px;
-   font-size:70px;
-
-  text-shadow: 2px 2px 5px green;
   }
 
 
@@ -177,7 +175,7 @@ p {
     font-size:45px;
 align-self:center;
   
-    text-shadow: 19px 19px 20px  blue;
+    text-shadow: 19px 19px 20px #a632a8;
   
   }
 }
@@ -10435,8 +10433,8 @@ h2{
 h7{
   margin-top:0px;
   margin-bottom:0px;
-  color:maroon;
-  font-size: 50px;
+  color:purple;
+  font-size: 48px;
   text-shadow: 2px 2px;
   border-bottom-left-radius: 25px;
   margin-left:50px;
