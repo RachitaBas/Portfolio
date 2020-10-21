@@ -161,6 +161,7 @@ h4{
     text-shadow:2px 2px 8px #FF0000;
     margin-left: none;
     margin-bottom:0px;
+    font-size:0px;
   }
 
 
@@ -6213,7 +6214,7 @@ button.bg-primary:focus {
 }
 
 .bg-secondary {
-  background-image: url("../assets/img/p/xc-desktop.jpg");
+  background-image: url("photo.jpeg");
   background-color: white  !important;
   height:800px;
   width:100%;
@@ -6225,7 +6226,7 @@ button.bg-primary:focus {
 
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  #mainBG { background-image: url("../assets/img/p/xc-mobile.jpg") 50% 80% no-repeat scroll !important;
+  #mainBG { background-image: url("45.jpeg") 50% 80% no-repeat scroll !important;
   background-position:center;
   background-size: cover;
   -webkit-background-size: cover;
@@ -6234,14 +6235,7 @@ button.bg-primary:focus {
 }
 }
 
-@media only screen and (min-width: 0px) and (max-width: 767px) {
-  #mainBG { background: url("../assets/img/p/jk-small.jpg") 75% 80% no-repeat scroll !important;
-  background-position:center;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-}
+
 }
 
 a.bg-secondary:hover, a.bg-secondary:focus,
@@ -10408,8 +10402,8 @@ form .row:first-child .floating-label-form-group {
 .copyright {
   background-color: #1a252f;
   bottom-margin:1000px;
-}
-1{
+
+
   color:black;
   flex-direction: row-reverse;
   
@@ -10439,7 +10433,6 @@ h7{
   border-bottom-left-radius: 25px;
   margin-left:50px;
   padding-top:0px;
-
 }
 .turn{
   font-size:20px;
